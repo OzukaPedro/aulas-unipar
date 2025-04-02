@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+h2{
+    margin: 0;
+    font-size: 35px;
+}
+content{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    height: auto;
+    width: screen;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 206, 206);
+    border-bottom: 10px;
+    box-shadow: 0px 5px 5px rgb(184, 184, 184);
+}
+.title{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 10px;
+}
+.icon-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+}
+.left-box{
+    margin-inline: 20px;
+}
+.my-img{
+    width: 300px;
+    height: 300px;
+}
+.social-container{
+    display: flex;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+}
+.social-img{
+    width: 25px;
+    height: 25px;
+    margin-inline: 5px;
+}
+.social-link{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+#usericon{
+    border: 1;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+#username{
+    margin: 0;
+}
