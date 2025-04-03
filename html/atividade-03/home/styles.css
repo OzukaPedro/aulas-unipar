@@ -12,6 +12,11 @@ h2 {
   justify-content: center;
   gap: 20px;
 }
+.option-link {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
 .option-container {
   display: flex;
   gap: 10;
